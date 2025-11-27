@@ -1,19 +1,17 @@
 public class Camion extends Vehicule {
-    private double capaciteChargement;
-    private int nombreEssieux;
+    private double capacite;
+    private int nbEssieux;
 
-    public Camion(int id, String marque, String modele, int annee, double kilometrage,
-                  String proprietaire, double capaciteChargement, int nombreEssieux) {
-        super(id, marque, modele, annee, kilometrage, proprietaire);
-        this.capaciteChargement = capaciteChargement;
-        this.nombreEssieux = nombreEssieux;
+    public Camion(String matricule, String marque, String modele, int annee, double kilometrage,
+                  String proprietaire, double capacite, int nbEssieux) {
+        super(matricule, marque, modele, annee, kilometrage, proprietaire);
+        this.capacite = capacite;
+        this.nbEssieux = nbEssieux;
     }
 
     @Override
     public void afficherInfos() {
         super.afficherInfos();
-        System.out.println("Capacité de chargement: " + capaciteChargement + " tonnes");
-        System.out.println("Nombre d’essieux: " + nombreEssieux);
-        System.out.println("-----------------------------");
+        System.out.println("Type: Camion, Capacité: " + capacite + "T, Essieux: " + nbEssieux);
     }
 }

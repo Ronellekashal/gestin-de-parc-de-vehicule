@@ -1,0 +1,4 @@
+Voiture;V001;Toyota;Corolla;2019;45000.0;Alice
+Camion;C001;Volvo;FH;2020;120000.0;Bob
+Moto;M001;Yamaha;MT07;2021;8000.0;Charlie
+Camion;45;tt;yy;66;77.0;uuuuu

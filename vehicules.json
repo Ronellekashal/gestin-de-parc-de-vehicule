@@ -1,0 +1,41 @@
+[
+  {
+    "nbPortes": 4,
+    "carburant": "Essence",
+    "matricule": "V001",
+    "marque": "Toyota",
+    "modele": "Corolla",
+    "annee": 2019,
+    "kilometrage": 45000.0,
+    "proprietaire": "Alice"
+  },
+  {
+    "capacite": 5.0,
+    "nbEssieux": 2,
+    "matricule": "C001",
+    "marque": "Volvo",
+    "modele": "FH",
+    "annee": 2020,
+    "kilometrage": 120000.0,
+    "proprietaire": "Bob"
+  },
+  {
+    "cylindree": 150,
+    "matricule": "M001",
+    "marque": "Yamaha",
+    "modele": "MT07",
+    "annee": 2021,
+    "kilometrage": 8000.0,
+    "proprietaire": "Charlie"
+  },
+  {
+    "capacite": 5.0,
+    "nbEssieux": 2,
+    "matricule": "45",
+    "marque": "tt",
+    "modele": "yy",
+    "annee": 66,
+    "kilometrage": 77.0,
+    "proprietaire": "uuuuu"
+  }
+]
